@@ -1,4 +1,5 @@
 # Copyright 2015 The SudaMod Project
+# Copyright 2016 The KylinRom Project
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)

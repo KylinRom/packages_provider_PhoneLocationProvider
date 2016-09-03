@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The SudaMod Project
+ * Copyright (C) 2016 The KylinRom Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,9 +15,9 @@
  * limitations under the License.
  */
 
-package com.suda.provider;
+package com.kylin.provider;
 
-import com.suda.db.DBOpenHelper;
+import com.kylin.db.DBOpenHelper;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -32,7 +33,7 @@ import android.text.TextUtils;
 
 public class PhoneLocationProvider extends ContentProvider {
 
-    static final String PROVIDER_NAME = "com.suda.provider.PhoneLocation";
+    static final String PROVIDER_NAME = "com.kylin.provider.PhoneLocation";
     static final Uri CONTENT_URI = Uri.parse("content://" + PROVIDER_NAME
             + "/phonelocation");
 
